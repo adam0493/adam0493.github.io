@@ -1,0 +1,35 @@
+/* CSS comment */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+header, footer {
+    background-color: #f5e5dd; /* Set the background color for both header and footer */
+}
+.site-title{
+    color:#ffa0e4 /* Set the text color for elements with the "site-title" class */
+}
+#my-image {
+    box-shadow: 0 0 2px 1px #ffa0e4 /* Apply the specified box-shadow to the element with the "my-image" ID */
+}
+.hobbies-list li{
+    list-style-type: square;
+}
+.hobbies-list li:nth-child(odd){
+    background-color: #fde8e9; /* Set the background color for odd list items */
+}
+nav ul{
+    list-style: none; /* Remove bullets from the unordered list */
+}
+nav a{
+    text-decoration: none; /*Remove underline from links */
+}
+nav a{
+    background-color:#f5edf0; /* Set background color */ 
+    border: 1px solid #ffa0e4; /* Add border to the links */
+}
+/* change the background on hover and focus state of the links */
+nav a:hover, nav a:focus {
+    background-color:#fae3e3; /* Change background color on hover or focus */   
+}
+
