@@ -4,72 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
-    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <div class="wrapper">
   <img src="images/logo.png" alt="image of logo">
+  </div>
+  <div class="wrapper">
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
+       
             <li><a href="#">About Us</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Team</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+    </div>
     <form action="thanks.html" method="post">
         <label for="fullname"> Search</label>
         <input type="text" id="fullname" name="fullname" required>
         <button type="submit">Send</button>
       </form>
+
       <img src="images/main-banner.jpg" alt="image of main main-banner">
+      <div class="welcome"></div>
       <h1> Welcome to Three Star Media</h1>
       <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis repudiandae soluta ipsum velit quos architecto. Cupiditate ducimus debitis quasi adipisci totam quo nostrum nihil perferendis et. Non illum esse accusantium.</p>
       <div class="button">
         <a href="#">Connect with us</a>
       </div>
-      <img src="images/about-us.jpg" alt="image of about us">
+      <div class="aboutus">
+      <img src="images/about-us.jpg" alt="image of about us"> 
       <h2> About Us </h2>
       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore nihil saepe dolorum vitae id rerum laborum sapiente aliquam! Officiis enim laboriosam optio aperiam, quo ipsa suscipit praesentium repellendus doloribus. </p>
       <!-- Extra Content -->
       <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque consequatur reiciendis aspernatur, perferendis explicabo quia rerum labore enim unde. Corrupti nisi nemo, provident asperiores esse ducimus veniam pariatur vitae quasi!</p>
+      </div>
+      <div class="ourservices">
       <header> <h1> Our services </h1> </header>
+      <div class="digitaltransformation">
       <img src="images/digital.jpg" alt="image of digital">
       <h2> Digital Transformation </h2>
       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officiis ex tempora iure aperiam unde fugit suscipit assumenda earum. Voluptates, temporibus harum. Voluptas dolorem distinctio, at ducimus a facere voluptatibus!</p>
+    </div>
       <div class="button">
         <a href="#"> Digital Plans </a> </div>
+      </div>
+        <div class="marketing">
         <img src="images/marketing.jpg" alt="image of marketing">
      <h1>Marketing</h1>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, necessitatibus, dolorem magni voluptatum optio odio cumque iusto voluptatibus ea ipsum assumenda labore et expedita quisquam dolor. Cupiditate ad cum aspernatur.</p>
+    </div>
      <div class="#">
       <a href="#"> Marketing Plans</a>
-     </div>
+     <div class="videoproduction">
      <img src="images/video.jpg" alt="image of video">
      <h2> Video Production </h2>
      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum molestiae in dolorem iste, soluta corporis expedita, ab perspiciatis magni suscipit dolores ut, officia voluptas vitae unde. Quia facilis eligendi ut.</p>
+    </div>
      <div class="#">
       <a href="#"><b>Video Plans</b></a>
      </div>
+     <div class="webdev">
      <img src="images/web.jpg" alt="image of web">
      <h2> Web Development</h2>
      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorem et maxime expedita exercitationem ipsam officiis velit itaque corporis aut? Minus facilis totam molestiae nam perferendis cumque provident quibusdam suscipit.</p>
+    </div>
      <div class="#">
       <a href="#">Web Plans</a>
      </div>
+     <div class="print">
      <img src="images/print.jpg" alt="image of print">
      <h2>Print</h2>
      <!-- Description of the section -->
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iste earum voluptatem fugit officia maiores commodi voluptates quo cum, qui sit ad, possimus amet tempora! Assumenda ea ipsa ducimus explicabo.</p>
+    </div>
+  </div>
      <div class="#">
       <a href="#">Print Plans</a>
      </div>
      <img src="images/vision.jpg" alt="image of vision">
+     <div class="vision">
      <h2>Our vision</h2>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iste earum voluptatem fugit officia maiores commodi voluptates quo cum, qui sit ad, possimus amet tempora! Assumenda ea ipsa ducimus explicabo.</p>
+
      <div class="#">
       <a href="#">Learns More </a>
+    </div>
      </div>
+     <div class="ourteam">
      <h1> Our team </h1>
      <img src="images/john.jpg" alt="image of john">
      <h2> John Doe </h2>
@@ -79,6 +105,8 @@
      <h2> Bob Rite </h2>
      <h3>CFO and Co-Owner</h3>
      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis illum mollitia aperiam voluptate maxime consequatur. Odio reiciendis sequi voluptatum recusandae quae iusto, cum, autem nobis veritatis esse excepturi modi sunt.</p>
+    </div>
+     <div class="contactus">
      <h1> Contact Us </h1>
       <h2> Send us a message </h2>
       <!-- Contact Form -->
@@ -93,7 +121,6 @@
       <form action="thanks.html" method="post">
         <label for="message"> Message</label>
         <textarea id="message"></textarea>
-      </form>
       <form>
         <!-- Submit button to send a message -->
         <button type="submit">Send</button>
