@@ -71,12 +71,6 @@ nav ul li:nth-child(1) a{
     color: #222;
 }
 
-.search{
-    background-color: #222;
-    color:#c78c06;
-    border: #c78c06 solidd 2 px;
-
-}
 body {
     background-color: rgb(255, 255, 255); 
     max-width: 1200px;
@@ -241,21 +235,16 @@ iframe{
 }
 footer{
     background-color:#222;
-    color:#c77c06
+    color:#c78c06;
 }
-@media only screen and (min-760px) {
-    ul{
+@media only screen and (min-width:760px) {
+    ul {
+        display: flex;
         flex-direction: row; 
         justify-content: center;
     }
-    ul :nth-child(1) {
-        display: flex;
-        justify-content: center;
-    }
-    ul :nth-child(1) a{
-        margin:auto;
-    }
-    header{
+
+    header {
         flex-direction: row;
         display:flex;
         justify-content: center;
